@@ -173,25 +173,7 @@ background-color: #ef8172;
 {
   padding: 3% 2%;
 }
-@media (max-width:850px) {
- .container-fluid{
-   padding: 3% 15% 0 15%;
- }
-  #title{
-    text-align: center;
-  }
-  .title-img{
-    position: relative;
-    top: 10%;
-    left: 0.5%;
 
-  }
-  #features{
-
-    position: relative;
-  }
-
-}
 
 /* footer */
 
@@ -201,4 +183,22 @@ background-color: #ef8172;
 }
 .foot-icon:hover{
   color: #ff4c68;
+}
+@media (max-width:1028px) {
+ .container-fluid{
+   padding: 3% 15% 0 15%;
+ }
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position: relative;
+    top: 10%;
+    left: 12%;
+
+  }
+  #features{
+  position: relative;
+  }
+
 }
