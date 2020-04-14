@@ -1,0 +1,165 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+ h1,h2,h3,h4,h5,h6{
+   font-family: "Montserrat";
+   font-weight:800;
+ }
+
+ p
+ {
+   color: #8f8f8f;
+ }
+ /* heading */
+ .big-heading
+ {
+   font-family:"Montserrat";
+   font-weight: 900;
+   font-size: 3rem;
+   line-height: 1.5;
+   color: white;
+ }
+ .section-heading{
+   font-size: 3rem;
+   line-height: 1.5;
+ }
+.container-fluid
+{
+  padding: 7% 15%;
+}
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+/* navbar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand
+{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+ #title .container-fluid{
+   padding: 3% 15% 7%;
+   text-align: left;
+ }
+/* download buttons */
+.dwn-btn
+{
+  margin: 5% 3% 5% 0;
+}
+.title-img{
+  width: 70%;
+  border-radius: 10%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%
+}
+/* features */
+#features{
+
+  position: relative;
+  z-index: 1;
+}
+.feature-title{
+font-size: 1.5rem;
+}
+.f-box{
+
+  padding: 5%;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+   color: #ff4c68;
+}
+/* testimonials */
+#testimonials
+{
+
+
+background-color: #ef8172;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+.testimonial-img
+{
+  width: 10%;
+  border-radius: 100%;
+  matgin
+  20px;
+}
+
+/* press */
+#press{
+  background-color: #ef8172;
+
+  padding-bottom: 3%;
+
+}
+.press-logo
+{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* pricing */
+#pricing
+{
+  padding: 100px;
+
+}
+.price-text
+{
+  line-height: 1.5;
+  font-size: 3rem;
+}
+.p-col
+{
+  padding: 3% 2%;
+}
+@media (max-width:1028px) {
+ .container-fluid{
+   padding: 3% 15% 0 15%;
+ }
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position: relative;
+    top: 10%;
+    left: 0.5%;
+
+  }
+  #features{
+
+    position: relative;
+  }
+
+}
+
+/* footer */
+
+.foot-icon{
+  margin: 20px 10px;
+}
